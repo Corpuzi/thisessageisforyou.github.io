@@ -2,17 +2,20 @@
     background-color: antiquewhite;
 }
 
-body {
+h1, h2 {
     text-align: center;
     align-items: center;
     align-content: center;
-    font-size: 100%;
-    margin-top: 25%;
 }
 
 button {
     color: black;
     background-color: pink;   
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 100%;
+    margin-top: 25%;
 }
 
 #quoteDisplay {
