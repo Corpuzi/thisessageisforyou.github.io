@@ -9,8 +9,8 @@ h1, h3 {
 }
 
 button {
-    color: black;
-    background-color: pink;   
+    color: white;
+    background-color: black;   
     text-align: center;
     align-items: center;
     align-content: center;
@@ -19,7 +19,7 @@ button {
 }
 
 #quoteDisplay {
-    color: purple;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: bold;
 }
