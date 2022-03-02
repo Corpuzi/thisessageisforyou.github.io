@@ -10,6 +10,9 @@ button {
     background-color: black;   
     font-size: 100%;
     margin-top: 25%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
 
 #quoteDisplay {
