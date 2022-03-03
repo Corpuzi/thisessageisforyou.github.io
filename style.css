@@ -2,6 +2,12 @@
     background-color: antiquewhite;
 }
 
+h3, h4, h5 {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+    
 button {
     color: white;
     background-color: black;   
