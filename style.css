@@ -13,13 +13,14 @@ button {
     text-align: center;
     align-items: center;
     align-content: center;
+    margin: 50px;
 }
 
 #quoteDisplay {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: 900;
-    margin: 15%;
+    margin-top: 15%;
     text-align: center;
     align-items: center;
     align-content: center;
