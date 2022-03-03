@@ -15,5 +15,8 @@ button {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: 900;
-    margin: 25%;
+    margin-top: 25%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
