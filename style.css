@@ -1,14 +1,14 @@
 * {
     background-color: antiquewhite;
-    text-align: center;
-    align-items: center;
-    align-content: center;
 }
 
 button {
     color: white;
     background-color: black;   
     font-size: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: bottom;
 }
 
 #quoteDisplay {
