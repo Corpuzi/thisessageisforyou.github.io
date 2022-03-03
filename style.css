@@ -12,7 +12,6 @@ button {
     text-align: center;
     align-items: center;
     align-content: center;
-    padding: 10px;
 }
 
 #quoteDisplay {
@@ -20,4 +19,5 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: heavy;
     margin-top: 25%;
+    margin-bottom: 10px;
 }
