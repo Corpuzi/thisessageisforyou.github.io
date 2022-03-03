@@ -1,21 +1,18 @@
 * {
     background-color: antiquewhite;
-}
-
-h3, h4, h5 {
     text-align: center;
     align-items: center;
     align-content: center;
 }
-    
+
+
 button {
     color: white;
     background-color: black;   
     font-size: 100%;
     text-align: center;
-    align-content: bottom;
-    top: 75%;
-    position: absolute;
+    align-items: center;
+    align-content: center;
 }
 
 #quoteDisplay {
