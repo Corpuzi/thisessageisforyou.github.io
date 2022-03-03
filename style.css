@@ -1,8 +1,6 @@
 * {
     background-color: antiquewhite;
-    text-align: center;
-    align-items: center;
-    align-content: center;
+
 }
 
 button {
@@ -10,13 +8,14 @@ button {
     background-color: black;   
     font-size: 100%;
     text-align: center;
-    align-items: bottom;
-    align-content: bottom;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
 }
 
 #quoteDisplay {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: heavy;
+    font-style: 900;
     margin-top: 25%;
 }
