@@ -10,8 +10,8 @@ button {
     background-color: black;   
     font-size: 100%;
     text-align: center;
-    align-items: center;
-    align-content: center;
+    align-items: bottom;
+    align-content: bottom;
 }
 
 #quoteDisplay {
@@ -19,6 +19,4 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: heavy;
     margin-top: 25%;
-    margin-bottom: lrem;
-    padding: lrem;
 }
