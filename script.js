@@ -38,7 +38,6 @@ const quotes = [
     //Math.random generates a random decimal number between 0 and 1
 function newQuote() {
     var randomNumber = Math.floor(Math.random() * (quotes.length));
-
-//
-    document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
+    
+    alert(quotes[randomNumber];
 }
