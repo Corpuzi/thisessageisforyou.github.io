@@ -35,11 +35,9 @@ const quotes = [
 
 function newQuote() {
     var randomNumber = Math.floor(Math.random() * (quotes.length));
-    
-    Swal.fire({
-  title: "This Message is For You",
-  text: quotes[randomNumber],
-  icon: "success",
-  confirmButtonText: 'Thank you'
-})
-}
+
+    //Insert SweetAlert
+    swal(quotes[randomNumber], {
+        buttons: "Done"
+        });
+    }
