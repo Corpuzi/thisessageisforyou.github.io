@@ -35,6 +35,6 @@ const quotes = [
 
 function newQuote() {
     var randomNumber = Math.floor(Math.random() * (quotes.length));
-
-    document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
+    
+    swal("This Message is For You", quotes[randomNumber]);
 }
