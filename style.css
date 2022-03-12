@@ -16,4 +16,25 @@ button {
     margin: 50px;
 }
 
+.swal-modal {
+    background-color:antiquewhite;
+    border: 3px solid white;
+  }
+
+.swal-overlay {
+    background-color: grey;
+  }
+
+.swal-text {
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 1px solid #F0E1A1;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
 
