@@ -34,9 +34,7 @@ const quotes = [
 ];
 
 function newQuote() {
-    //Retrieve a random quote by generating and calling a random array index number (Math.floor rounds a number downward to the nearest integer and Math.random generates a random decimal number between 0 and 1)
     var randomNumber = Math.floor(Math.random() * (quotes.length));
 
-    //Alert box
-    alert(quotes[randomNumber]);
+    document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
 }
