@@ -36,5 +36,5 @@ const quotes = [
 function newQuote() {
     var randomNumber = Math.floor(Math.random() * (quotes.length));
     
-    swal("This Message is For You", quotes[randomNumber]);
+    swal.fire("This Message is For You", quotes[randomNumber]);
 }
