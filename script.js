@@ -31,7 +31,7 @@ const quotes = [
 "It is better to fail in originality than to succeed in imitation.\n",
 "Don't let what you cannot do interfere with what you can do.\n",
 "You may have to fight a battle more than once to win it.\n"
-]
+];
 
 function newQuote() {
     //Retrieve a random quote by generating and calling a random array index number (Math.floor rounds a number downward to the nearest integer and Math.random generates a random decimal number between 0 and 1)
