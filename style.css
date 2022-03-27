@@ -5,10 +5,6 @@
     align-content: center;
 }
 
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 button {
     color: white;
     background-color: black;   
@@ -52,4 +48,10 @@ button {
 
   .swal-button {
       background-color: rgb(56, 56, 56);
+  }
+
+  .swal-title {
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bolder;
   }
