@@ -1,10 +1,13 @@
 * {
-    background-color: antiquewhite;
+    background: url("https://images.unsplash.com/photo-1610736702440-9dfab24cd7da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdWRzJTIwaW4lMjBza3l8ZW58MHx8MHx8&w=1000&q=80");
     text-align: center;
     align-items: center;
     align-content: center;
 }
 
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 button {
     color: white;
@@ -13,7 +16,17 @@ button {
     text-align: center;
     align-items: center;
     align-content: center;
-    margin: 50px;
+    margin-top: 50px;
+}
+
+#quoteDisplay {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: 900;
+    margin-top: 15%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
 
 .swal-modal {
@@ -37,7 +50,6 @@ button {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-.swal-button {
-    background-color: rgb(56, 56, 56);
+  .swal-button {
+      background-color: rgb(56, 56, 56);
   }
-
