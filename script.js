@@ -1,4 +1,4 @@
-//Put the quotes together into an array
+//Since we know we have multiple quotes and each one will be picked out randomly, the best choice would be to store them within an array 
 const quotes = [
 "Life will be hard. No free passes.\n",
 "Good things come to people who wait, but better things come to those who go out and get them.\n",
@@ -33,11 +33,16 @@ const quotes = [
 "You may have to fight a battle more than once to win it.\n"
 ];
 
+//Retrieve a random quote by generating and calling a random array index number
+    //Math.floor rounds a number downward to the nearest integer
+    //Math.random generates a random decimal number between 0 and 1
 function newQuote() {
     var randomNumber = Math.floor(Math.random() * (quotes.length));
 
     //Insert SweetAlert
-    swal(quotes[randomNumber], {
-        buttons: "Done"
+    swal({
+        title: "This Message is For You",
+        text: quotes[randomNumber],
+        button: "Done"
         });
     }
