@@ -42,7 +42,7 @@ function newQuote() {
     //Insert SweetAlert
     swal({
         title: "This Message is For You",
-        text: quotes[randomNumber],
+        text: "🗣 " + quotes[randomNumber],
         button: "Done"
         });
     }
