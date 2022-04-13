@@ -17,7 +17,7 @@ button {
 
 #quoteDisplay {
     color: rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', Avenir Next Condensed Heavy Italic, 'Arial Narrow', Arial, sans-serif;
     font-style: 900;
     margin-top: 15%;
     text-align: center;
@@ -42,7 +42,7 @@ button {
     text-align: center;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', Avenir Next Condensed Heavy Italic, 'Arial Narrow', Arial, sans-serif;
   }
 
   .swal-button {
@@ -51,6 +51,6 @@ button {
 
   .swal-title {
       color: rgb(255, 255, 255);
-      font-family: 'Arial Black', Arial, sans-serif;
+      font-family: Avenir Next Condensed Heavy Italic, 'Arial Black', Arial, sans-serif;
       font-weight: bold;
   }
