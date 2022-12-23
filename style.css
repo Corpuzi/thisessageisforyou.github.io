@@ -1,5 +1,5 @@
 html {
-    background: url("https://cdn.mos.cms.futurecdn.net/BfemybeKVXCf9pgX9WCxsc.jpg");
+    background: url("background.jpg");
     text-align: center;
     align-items: center;
     align-content: center;
@@ -26,7 +26,7 @@ button {
 }
 
 .swal-modal {
-    background: url("https://cdn.mos.cms.futurecdn.net/BfemybeKVXCf9pgX9WCxsc.jpg");
+    background: url("background.jpg");
     border: 3px solid white;
   }
 
@@ -53,3 +53,4 @@ button {
       font-family: 'Arial Black', Arial, sans-serif;
       font-weight: bold;
   }
+
