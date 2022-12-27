@@ -1,19 +1,20 @@
 html {
-    background: url("background.jpg");
-    background-size: cover;
+    background: rgb(255,255,255);
+    background: linear-gradient(86deg, rgba(255,255,255,1) 0%, rgba(233,197,197,1) 0%, rgba(174,40,40,1) 100%);    background-size: cover;
     text-align: center;
     align-items: center;
     align-content: center;
 }
 
 button {
-    color: white;
-    background-color: rgb(36, 44, 51);   
-    font-size: 100%;
+    color: rgb(39, 3, 3);
+    font-weight: bolder;
+    background: rgb(255,255,255);
+    background: linear-gradient(259deg, rgba(255,255,255,1) 0%, rgba(233,197,197,1) 0%, rgba(174,40,40,1) 100%);    font-size: 100%;
     text-align: center;
     align-items: center;
     align-content: center;
-    margin-top: 50px;
+    margin-top: 250px;
 }
 
 #quoteDisplay {
@@ -26,13 +27,15 @@ button {
     align-content: center;
 }
 
+/*                        */
+
 .swal-modal {
-    background: url("background.jpg");
-    border: 3px solid white;
+  background: rgb(255,255,255);
+  background: linear-gradient(86deg, rgba(255,255,255,1) 0%, rgba(233,197,197,1) 0%, rgba(174,40,40,1) 100%);    background-size: cover;    border: 3px solid white;
   }
 
 .swal-overlay {
-    background-color: rgb(36, 44, 51);
+    background-color: rgb(176, 91, 91);
   }
 
 .swal-text {
@@ -43,10 +46,6 @@ button {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Black' , Arial, sans-serif;
-  }
-
-  .swal-button {
-    background-color: rgb(36, 44, 51);
   }
 
   .swal-title {
